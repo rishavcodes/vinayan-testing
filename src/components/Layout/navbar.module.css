@@ -1,0 +1,32 @@
+.drop ul {
+    transform: translatex(100%) scale(0);
+}
+
+.drop:hover ul {
+    transform: translatex(101%) scale(1);
+}
+
+.drop button svg {
+    transform: rotate(-90deg);
+}
+
+.drop:hover button svg {
+    transform: rotate(-270deg);
+}
+
+
+.group:hover .group-hover\:scale-100 {
+    transform: scale(1);
+}
+
+.group:hover .group-hover\:-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.scale-0 {
+    transform: scale(0);
+}
+
+.min-w-32 {
+    min-width: 8rem;
+}
